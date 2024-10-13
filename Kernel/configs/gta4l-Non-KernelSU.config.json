@@ -1,17 +1,17 @@
 [
   {
     "kernelSource": {
-      "name": "Mi6X",
-      "repo": "https://github.com/Diva-Room/Miku_kernel_xiaomi_wayne",
-      "branch": "TDA",
-      "device": "wayne",
-      "defconfig": "vendor/wayne_defconfig"
+      "name": "gta4l-Non-KernelSU",
+      "repo": "https://github.com/YFMARCO/kernel-test2",
+      "branch": "master",
+      "device": "gta4l",
+      "defconfig": "/gta4l_mea_jt_defconfig"
     },
     "toolchains": [
       {
-        "repo": "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b",
-        "branch": "lineage-20.0",
-        "name": "clang",
+        "repo": "https://github.com/kdrag0n/proton-clang",
+        "branch": "master",
+        "name": "proton-clang",
         "binaryEnv": [
           "bin"
         ]
@@ -52,14 +52,19 @@
         "LDGOLD": "aarch64-linux-gnu-ld.gold",
         "LLVM_AR": "llvm-ar",
         "LLVM_DIS": "llvm-dis",
-        "CONFIG_THINLTO": ""
+        "CONFIG_THINLTO": "",
+      	"DTC_EXT": "dtc"
       }
     },
     "AnyKernel3": {
       "use": true,
-      "release": true
+      "release": true,
+      "custom": {
+        "repo": "https://github.com/YFMARCO/AnyKernel3/",
+        "branch": "gta4l"
+      }
     },
-    "enableKernelSU": true,
+    "enableKernelSU": false,
     "enableLXC": false
   }
 ]
