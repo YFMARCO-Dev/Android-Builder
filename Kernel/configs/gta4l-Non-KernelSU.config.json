@@ -4,7 +4,7 @@
       "name": "gta4l-Non-KernelSU",
       "repo": "https://github.com/YFMARCO-Dev/kernel-test2",
       "branch": "gta4ljt",
-      "device": "gta4l",
+      "device": "gta4ljt",
       "defconfig": "/gta4l_mea_jt_defconfig"
     },
     "toolchains": [
