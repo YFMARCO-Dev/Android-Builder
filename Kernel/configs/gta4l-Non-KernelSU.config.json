@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "gta4l-Non-KernelSU",
       "repo": "https://github.com/YFMARCO-Dev/kernel-test2",
-      "branch": "gta4ljt",
+      "branch": "master",
       "device": "gta4l",
       "defconfig": "/gta4l_mea_jt_defconfig"
     },
