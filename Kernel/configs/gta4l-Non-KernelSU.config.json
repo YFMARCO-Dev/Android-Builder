@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "gta4l-Non-KernelSU",
-      "repo": "https://github.com/YFMARCO-Dev/kernel-test2.git",
-      "branch": "gta4ljt",
+      "repo": "https://github.com/YFMARCO-Dev/android_kernel_samsung_sm6115k.git",
+      "branch": "lineage-22.2",
       "device": "gta4l",
-      "defconfig": "gta4l_mea_jt_defconfig"
+      "defconfig": "gta4l_eur_open_defconfig"
     },
     "toolchains": [
       {
