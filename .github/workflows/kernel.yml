@@ -91,7 +91,7 @@ jobs:
           sudo apt-get update
           sudo apt install -y build-essential bc gcc-aarch64-linux-gnu gcc-arm-linux-gnueabi libssl-dev libfl-dev        
           sudo apt install -y curl git ftp lftp wget libarchive-tools ccache python3 python3-dev
-          sudo apt install -y zip unzip tar gzip bzip2 rar unrar
+          sudo apt install -y zip unzip tar gzip bzip2 rar unrar device-tree-compiler
           
       # Initialize ccache
       - name: 🚄 Setup ccache
