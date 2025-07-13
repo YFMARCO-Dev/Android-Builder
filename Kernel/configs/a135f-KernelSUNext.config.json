@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "a135f-KernelSU",
-      "repo": "https://github.com/YFMARCO-Dev/kernel-test2.git",
-      "branch": "gta4ljt",
+      "repo": "https://github.com/YFMARCO-Dev/A135F-M-kernel.git",
+      "branch": "main",
       "device": "a135f",
       "defconfig": "exynos850-a13xx_defconfig"
     },
