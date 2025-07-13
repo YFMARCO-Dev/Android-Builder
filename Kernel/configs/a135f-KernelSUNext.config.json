@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "gta4l-Non-KernelSU",
+      "name": "a135f-KernelSU",
       "repo": "https://github.com/YFMARCO-Dev/kernel-test2.git",
       "branch": "gta4ljt",
-      "device": "gta4l",
-      "defconfig": "gta4l_mea_jt_defconfig"
+      "device": "a135f",
+      "defconfig": "exynos850-a13xx_defconfig"
     },
     "toolchains": [
       {
@@ -61,10 +61,10 @@
       "release": true,
       "custom": {
         "repo": "https://github.com/YFMARCO-Dev/AnyKernel3/",
-        "branch": "spider-logo"
+        "branch": "a13-spider"
       }
     },
-    "enableKernelSU": false,
+    "enableKernelSU": true,
     "enableLXC": false
   }
 ]
