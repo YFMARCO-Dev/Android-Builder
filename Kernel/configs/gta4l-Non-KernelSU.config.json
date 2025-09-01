@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "gta4l-Non-KernelSU",
-      "repo": "https://github.com/YFMARCO-Dev/kernel-test2.git",
-      "branch": "gta4ljt",
-      "device": "gta4l",
-      "defconfig": "gta4l_mea_jt_defconfig"
+      "repo": "https://github.com/YFMARCO-Dev/android_kernel_qcom_sm6115.git",
+      "branch": "fourteen",
+      "device": "qcom",
+      "defconfig": "vendor/bengal-perf_defconfig"
     },
     "toolchains": [
       {
