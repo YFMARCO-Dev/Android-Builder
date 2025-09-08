@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "gta4l-Non-KernelSU",
       "repo": "https://github.com/YFMARCO-Dev/android_kernel_qcom_sm6115.git",
-      "branch": "fourteen",
+      "branch": "soc",
       "device": "qcom",
       "defconfig": "vendor/bengal-perf_defconfig"
     },
