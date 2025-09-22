@@ -61,7 +61,7 @@
       "release": true,
       "custom": {
         "repo": "https://github.com/YFMARCO-Dev/AnyKernel3/",
-        "branch": "spider-logo"
+        "branch": "spider-gta4l"
       }
     },
     "enableKernelSU": false,
