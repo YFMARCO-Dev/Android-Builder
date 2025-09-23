@@ -5,7 +5,7 @@
       "repo": "https://github.com/YFMARCO-Dev/android_kernel_samsung_gta4l.git",
       "branch": "gta4l-test",
       "device": "gta4l",
-      "defconfig": "gta4l_mea_jt_defconfig"
+      "defconfig": "vendor/samsung/gta4l_perf_defconfig"
     },
     "toolchains": [
       {
